@@ -44,4 +44,4 @@ jobs:
           SOURCE: "dist/HomeDashboard/"
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
-          TARGET: /${{ secrets.REMOTE_TARGET }}
+          TARGET: /${{ secrets.REMOTE_TARGET }}/jqmittech/dist
